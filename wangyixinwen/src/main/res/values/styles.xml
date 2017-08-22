@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--定义标题头颜色 -->
+        <item name="colorPrimary">#f12</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:text">@android:color/black</item>
+        <item name="mainBackground">@android:color/white</item>
+    </style>
+
+
+
+</resources>

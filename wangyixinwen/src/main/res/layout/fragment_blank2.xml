@@ -1,0 +1,168 @@
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    tools:context="com.example.mywangyixinwen.Blank2Fragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="#000"
+        android:layout_weight="0.18">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/c"
+            android:id="@+id/denglu1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即登陆"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:id="@+id/denglu2"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赢积分 抢大礼！"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:id="@+id/denglu3"
+            android:textColor="#fff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/yuedu"
+                android:layout_weight="1"
+                android:text="阅读"
+                android:gravity="center"
+                android:textColor="#fff"/>
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/shoucang"
+                android:layout_weight="1"
+                android:text="收藏"
+                android:gravity="center"
+                android:textColor="#fff"/>
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/gentie"
+                android:layout_weight="1"
+                android:text="跟帖"
+                android:gravity="center"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_weight="0.81"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="俱乐部  能赚能花，土豪当家！"
+        android:id="@+id/julebu"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="活  动 大人，这是你的SSR吗？ "
+        android:id="@+id/huodong"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="应  用 挖金币技术哪家强"
+        android:id="@+id/yingyong"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="游  戏 部落冲突：皇室战争来袭"
+        android:id="@+id/youxi"
+        android:padding="10dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.14">
+        <TextView
+            android:id="@+id/shangtoutiao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上头条"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+        <TextView
+            android:id="@+id/xiaoxi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="消息"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+        <TextView
+            android:id="@+id/youjian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="邮件"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+        <TextView
+            android:id="@+id/gongyi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="公益"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+        <TextView
+            android:id="@+id/caipiao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="彩票"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>

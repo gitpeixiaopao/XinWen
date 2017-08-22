@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/c"
+        android:title="222"
+        app:showAsAction="always"/>
+    <item android:id="@+id/tianqi"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="天气"
+        />
+    <item android:id="@+id/lixian"
+        android:title="离线"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item android:id="@+id/yejian"
+        android:title="夜间"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        />
+    <item android:id="@+id/fenxiang"
+        android:title="分享"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item android:id="@+id/saoyisao"
+        android:title="扫一扫"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item android:id="@+id/yuyin"
+        android:title="语音"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+</menu>
